@@ -1,0 +1,6 @@
+export const protocols = [
+  { clause: 'C-102', department: 'Cardiology', symptomCategory: 'Chest pain with shortness of breath', updated: '2026-07-15', source: 'Hospital Triage Protocol v4.2', text: 'Patients presenting with chest pain accompanied by shortness of breath, dizziness, or sweating must be prioritized for cardiology assessment. Refer to the nearest emergency triage point.' },
+  { clause: 'G-014', department: 'General Physician', symptomCategory: 'Fever and headache', updated: '2026-05-02', source: 'Hospital Triage Protocol v4.1', text: 'Fever with persistent headache lasting more than 48 hours should be assessed by general medicine for possible infection screening.' },
+  { clause: 'D-021', department: 'Dermatology', symptomCategory: 'Skin rash', updated: '2026-03-20', source: 'Hospital Triage Protocol v4.0', text: 'Non-spreading skin rash with no systemic symptoms may be routed to dermatology outpatient during clinic hours.' },
+  { clause: 'O-033', department: 'Orthopedics', symptomCategory: 'Joint or limb pain', updated: '2026-06-11', source: 'Hospital Triage Protocol v4.2', text: 'Persistent joint pain beyond one week, especially with swelling or reduced mobility, should be referred to orthopedics.' },
+]

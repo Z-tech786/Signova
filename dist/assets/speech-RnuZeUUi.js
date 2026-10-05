@@ -1,0 +1,6 @@
+import{c as o}from"./activity-CSiAwEcn.js";import{j as t}from"./index-C-8S-Smi.js";/**
+ * @license lucide-react v0.453.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const p=o("Send",[["path",{d:"M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z",key:"1ffxy3"}],["path",{d:"m21.854 2.147-10.94 10.939",key:"12cjpa"}]]);function h({msg:e}){const s=e.from==="patient";return t.jsxs("div",{style:{display:"flex",flexDirection:"column",alignItems:s?"flex-end":"flex-start"},children:[t.jsxs("div",{className:`bubble ${s?"patient":"assistant"}`,children:[e.text,e.meta&&t.jsx("div",{className:"bubble-meta",children:e.meta})]}),t.jsx("span",{className:"bubble-meta",style:{padding:"0 6px"},children:e.time})]})}let a=[];const i=()=>{var e;a=((e=window.speechSynthesis)==null?void 0:e.getVoices())||[]};typeof window<"u"&&window.speechSynthesis&&(i(),window.speechSynthesis.onvoiceschanged=i);const r=e=>{if(typeof window>"u"||!window.speechSynthesis||localStorage.getItem("signova_tts")==="off")return;window.speechSynthesis.cancel();const s=new SpeechSynthesisUtterance(e);s.rate=.95,s.pitch=1;const n=a.find(c=>c.lang.startsWith("en"));n&&(s.voice=n),window.speechSynthesis.speak(s)};export{h as M,p as S,r as s};

@@ -1,0 +1,1 @@
+import{j as a}from"./index-C-8S-Smi.js";function i({value:e}){return a.jsx("div",{className:"meter",role:"progressbar","aria-valuenow":Math.round(e*100),"aria-valuemin":"0","aria-valuemax":"100","aria-label":"Recognition confidence",children:a.jsx("div",{className:"meter-fill",style:{width:`${Math.round(e*100)}%`}})})}export{i as C};
