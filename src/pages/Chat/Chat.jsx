@@ -52,7 +52,7 @@ export default function Chat() {
 
   return (
     <Shell title="Conversation" subtitle="Hospital intake chat">
-      <div className="grid-2" style={{ gridTemplateColumns: '2fr 1fr' }}>
+      <div className="grid-2">
         <div className="card" style={{ padding: 22, display: 'flex', flexDirection: 'column', gap: 14 }}>
           <div className="chat-window">
             {messages.map((m) => <MessageBubble key={m.id} msg={m} />)}

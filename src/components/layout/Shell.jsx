@@ -1,6 +1,7 @@
 import React from 'react'
 import Sidebar from './Sidebar.jsx'
 import Topbar from './Topbar.jsx'
+import MobileNav from './MobileNav.jsx'
 
 export default function Shell({ title, subtitle, badge, children }) {
   return (
@@ -10,6 +11,7 @@ export default function Shell({ title, subtitle, badge, children }) {
         <Topbar title={title} subtitle={subtitle} badge={badge} />
         <main className="page">{children}</main>
       </div>
+      <MobileNav />
     </div>
   )
 }
